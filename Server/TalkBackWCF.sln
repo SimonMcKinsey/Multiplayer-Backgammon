@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkBackWCF.Contract", "TalkBackWCF.Contract\TalkBackWCF.Contract.csproj", "{69D8560E-47ED-4FFD-80D4-1121891B6A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkBackWCF.Services", "TalkBackWCF.Services\TalkBackWCF.Services.csproj", "{A713C0F6-229E-4D46-BF4D-088B09901FED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{ED4A6BCB-DC56-428C-B8DC-26FDE71CEB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkBackWCF.BL", "TalkBackWCF.BL\TalkBackWCF.BL.csproj", "{9E863AC1-5A86-4956-9973-D5AE5C877C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkBackWCF.Domain", "TalkBackWCF.Domain\TalkBackWCF.Domain.csproj", "{329C92FC-5321-4249-ABEF-A1BD77B1A725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkBackWCF.Host", "TalkBackWCF.Host\TalkBackWCF.Host.csproj", "{371C843D-A221-447A-B247-8A89C8E0F2FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D8560E-47ED-4FFD-80D4-1121891B6A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D8560E-47ED-4FFD-80D4-1121891B6A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D8560E-47ED-4FFD-80D4-1121891B6A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D8560E-47ED-4FFD-80D4-1121891B6A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A713C0F6-229E-4D46-BF4D-088B09901FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A713C0F6-229E-4D46-BF4D-088B09901FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A713C0F6-229E-4D46-BF4D-088B09901FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A713C0F6-229E-4D46-BF4D-088B09901FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E863AC1-5A86-4956-9973-D5AE5C877C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E863AC1-5A86-4956-9973-D5AE5C877C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E863AC1-5A86-4956-9973-D5AE5C877C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E863AC1-5A86-4956-9973-D5AE5C877C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329C92FC-5321-4249-ABEF-A1BD77B1A725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329C92FC-5321-4249-ABEF-A1BD77B1A725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329C92FC-5321-4249-ABEF-A1BD77B1A725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329C92FC-5321-4249-ABEF-A1BD77B1A725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371C843D-A221-447A-B247-8A89C8E0F2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371C843D-A221-447A-B247-8A89C8E0F2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371C843D-A221-447A-B247-8A89C8E0F2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371C843D-A221-447A-B247-8A89C8E0F2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A713C0F6-229E-4D46-BF4D-088B09901FED} = {ED4A6BCB-DC56-428C-B8DC-26FDE71CEB98}
+		{9E863AC1-5A86-4956-9973-D5AE5C877C15} = {ED4A6BCB-DC56-428C-B8DC-26FDE71CEB98}
+		{329C92FC-5321-4249-ABEF-A1BD77B1A725} = {ED4A6BCB-DC56-428C-B8DC-26FDE71CEB98}
+		{371C843D-A221-447A-B247-8A89C8E0F2FE} = {ED4A6BCB-DC56-428C-B8DC-26FDE71CEB98}
+	EndGlobalSection
+EndGlobal
