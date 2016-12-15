@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="WPFClientDemo.Views.ChatWIndowView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFClientDemo.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="525" d:DesignWidth="550" Background="#FFA7DBD8">
+    <Grid Height="525" Width="550">
+
+        <Border BorderThickness="3" Margin="16,19,16,208" BorderBrush="Black">
+            <ScrollViewer>
+
+                <TextBlock  Name="messagesLog" Text="{Binding MessagesLog}" FontSize="20"  Background="#FFE0E4CC" />
+            </ScrollViewer>
+        </Border>
+
+        <Button Command="{Binding SendMessageCommand}" Content="Send" Margin="419,348,0,142" HorizontalAlignment="Left" Width="115" ></Button>
+        <Border BorderThickness="3" Margin="16,348,147,98" BorderBrush="#FF69D2E7">
+
+            <TextBox FontSize="20" Name="MessageContent" Text="{Binding MessageContent}" >
+
+            </TextBox>
+        </Border>
+        
+    </Grid>
+</UserControl>
